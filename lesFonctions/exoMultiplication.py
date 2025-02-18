@@ -9,5 +9,4 @@ def afficher_table_multiplication(n, min, max):
 print("Bienvenu !")
 print("")
 
-afficher_table_multiplication(6, 1, 10)
-    
+afficher_table_multiplication(5, 1, 10)
