@@ -16,7 +16,7 @@ def poser_question():
     reponse_str = None
     while reponse_str is None:
         reponse_str = input(f"Calculez {a} {operateur} {b} = ")
-
+                                                                                    
         try:
             reponse = int(reponse_str)
         except:
