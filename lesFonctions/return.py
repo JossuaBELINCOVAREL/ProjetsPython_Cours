@@ -1,5 +1,9 @@
 # Les return
 
+# Grosse différence entre break et return : 
+    # Break permet de casser la boucle (arrêter de boucler) mais de continuer la suite de la fonction/code
+    # Return sort directement de la fonction (fonctionne seulement dans une fonction, break non)
+
 def est_majeur(age):
     if age >= 18:
         return True
