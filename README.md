@@ -18,12 +18,12 @@ Ce repository est organisé en plusieurs sections pour faciliter votre apprentis
 
 1. **Clonez le repo** sur votre machine locale :
    ```bash
-   git clone https://github.com/votre-utilisateur/nom-du-repo.git
+   git clone https://github.com/JossuaBELINCOVAREL/ProjetsPython_Cours.git
    ```
 
 2. **Accédez au dossier** :
    ```bash
-   cd nom-du-repo
+   cd ProjetsPython_Cours
    ```
 
 3. **Suivez les exercices** en parcourant les dossiers dans l'ordre souhaité.
