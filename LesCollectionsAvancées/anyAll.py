@@ -21,6 +21,6 @@ print(all(d))
 noms_v = [True if "v" in car_nom.lower() else False for car_nom in noms]
 print(noms_v)
 
-# Possible de faire comme ça aussi avec un any: 
+# Possible de faire comme ça aussi avec un any : 
 noms_v_existe = any([True if "v" in car_nom.lower() else False for car_nom in noms])
 print(noms_v_existe)
