@@ -3,6 +3,7 @@
 # Afficher "AUCUNE PIZZA" pour le tuple vide
 # Demander à l'utilisateur de rajouter une pizza
 # Erreur si pizza existe déja (booleen)
+# Enlever la sensibilité à la casse (Majuscule & Minuscule)
 
 def afficher(collection):
 
