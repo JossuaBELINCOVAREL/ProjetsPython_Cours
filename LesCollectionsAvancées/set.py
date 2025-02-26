@@ -3,6 +3,8 @@
 # Comme les dictionnaires, les sets sont des collections d'éléments non-ordonnées.
 # Souvent utilisés pour contrôler les doublons et effectuer des opérations sur les ensembles comme les unions, les différences, etc.
 
+# PAs indexable sauf avec un list(set(noms))
+
 '''noms = ["Marie", "Paul", "Jean", "Marc", "Emilie", "Marie"]
 noms_sans_doublons = list(set(noms))
 print(noms_sans_doublons)
