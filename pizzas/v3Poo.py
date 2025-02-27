@@ -79,7 +79,6 @@ pizzas = [ Pizza("4 fromages", 8.5, ("Brie", "Emmental", "Compté", "Parmesan"),
 for p in pizzas:
     p.Afficher()
 
-
 # Affichage des pizzas dont le prix est supérieur ou égal à 10$ --->
     # for p in pizzas:
     #     if p.prix >= 10:
