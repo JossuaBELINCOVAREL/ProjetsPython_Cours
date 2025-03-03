@@ -34,3 +34,20 @@ print()
 
 # Si impossible d'avoir accès à la class : 
 print(personne1.__dict__ == personne2.__dict__)
+
+"""
+Quand devez-vous utiliser la copie superficielle au lieu de la copie profonde, et vice versa ? :
+
+Lorsque vous faites une copie superficielle, un nouvel objet est créé et il conserve les pointeurs de référence de l'objet original. 
+Comme le processus de copie superficielle n'est pas récursif, les copies des objets enfants originaux ne sont pas créées. 
+En gros, vous avez donc deux objets qui partagent le même ensemble d'éléments. 
+Cela signifie que toute modification apportée à l'objet copié se reflète instantanément dans l'objet original.
+
+Dans le cas d'une copie profonde, cependant, un processus de copie récursif est effectué, et des copies de tous les objets enfants sont créées.
+Ainsi, si vous apportez une modification à l'objet copié, elle ne se reflétera pas dans l'objet original.
+
+Le moment et la raison pour lesquels vous devriez choisir l'un ou l'autre dépendent du cas d'utilisation, 
+mais il est primordial que vous compreniez le fonctionnement interne des deux processus.
+
+
+"""
