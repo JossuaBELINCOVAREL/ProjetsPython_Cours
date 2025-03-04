@@ -49,5 +49,4 @@ Ainsi, si vous apportez une modification à l'objet copié, elle ne se refléter
 Le moment et la raison pour lesquels vous devriez choisir l'un ou l'autre dépendent du cas d'utilisation, 
 mais il est primordial que vous compreniez le fonctionnement interne des deux processus.
 
-
 """
