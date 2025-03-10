@@ -1,5 +1,5 @@
 """
-Les environnepments Python:
+Les environnepments Python :
 Permet de faire fonctionner les projets peu importe la configuration de la machine.
 Les projets dépendant de la version de Python et des modules
 Problématique : Modules et versions de Python ne sont pas compatible
