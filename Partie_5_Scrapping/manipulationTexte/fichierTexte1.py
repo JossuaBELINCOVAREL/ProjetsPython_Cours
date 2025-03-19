@@ -10,7 +10,6 @@ f.write("\n fin")
 
 f.close()
 
-# open("fichierTexte1.txt", "r") # <- ouverture en lecture
 
 """
 Exercice : créer un fichier qui liste 
