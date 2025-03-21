@@ -28,7 +28,6 @@ with open(chemin_fichier, "w") as f:
     f.write(personne_json)
 
 
-
 # print(f"Fichier fichier_json.txt créé ici : {chemin_fichier}")
 
 f.close()

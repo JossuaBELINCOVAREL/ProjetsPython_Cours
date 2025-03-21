@@ -35,7 +35,7 @@ curseur.execute("INSERT INTO albums (album_id, artiste_id, titre, date_sortie) V
                 (3, cd_id, "Falling into You", 1996))
 
 # Utilisation de ? dans execute() : permet d'éviter les injections SQL et les erreurs de conversion.
-# Utilisation correcte des guillemets : Les valeurs de type TEXT en SQL doivent être entre apostrophes ('), mais ici, SQLite s'en occupe automatiquement grâce aux ?.
+# Les valeurs de type TEXT en SQL doivent être entre apostrophes ('), mais ici, SQLite s'en occupe automatiquement grâce aux ?.
 
 connexion.commit() # Envoi de la requête SQL
 connexion.close()
