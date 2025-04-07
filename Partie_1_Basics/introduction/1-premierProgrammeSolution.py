@@ -36,3 +36,18 @@ print("Je m'appelle " + nom + ".")
 nom_famille = input("Quel est ton nom ? ")
 age_famille = input("Quel est ton âge ? ") 
 print("Je m'appelle " + nom_famille + " et j'ai " + age_famille + " ans.")
+
+##############################################
+# Exercice : Crée ta fiche d'identité personnelle
+
+# Écris un programme en Python qui :
+# - Demande à l'utilisateur son prénom, son nom, son âge et sa profession.
+# - Affiche ensuite un message structuré de ce type :
+
+'''
+Bonjour Jean Dupont !
+Tu as 30 ans et tu es Développeur.
+'''
+
+##############################################
+
