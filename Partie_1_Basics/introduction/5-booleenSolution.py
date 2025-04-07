@@ -1,45 +1,37 @@
-def afficher_info_personne(nom, age):
-    print("Vous vous appelez " + nom + ". Vous avez " + str(age) + " ans, l'année prochaine vous aurez " + str(age + 1) + " ans." )
-    if age == 17:
-        print("Vous êtes encore mineur...")
-    elif 12 <= age < 18:
-        print("Vous êtes un ado")
-    elif age == 1 or age == 2:
-        print("Vous êtes un tout petit bébé")
-    elif age == 18:
-        print("Vous êtes tout juste majeur")
-    elif age > 68:
-        print("Vous êtes sénior")
-    elif age < 10:
-        print("Vous êtes un enfant")
-    elif age > 18:
-        print("Vous êtes majeur")
-    else:
-        print("Vous êtes mineur")
-
+# Fonction qui demande le prénom de l'utilisateur
 def demander_nom():
     nom = ""
     while nom == "":
-        nom = input("Quel est ton nom ? ")
+        nom = input("Quel est ton prénom ? ")
     return nom
 
-def demander_age(nom_personne):
+# Fonction qui demande l'âge de l'utilisateur
+def demander_age():
     age_int = 0
     while age_int == 0:
-        age = input(nom_personne + " Quel est ton âge jeune ? ")
+        age = input("Quel est ton âge ? ")
         try:
             age_int = int(age)
         except:
-            print("ERREUR: Rentre un nombre !")
+            print("Erreur : tu dois entrer un nombre.")
     return age_int
-    
-# Demander le nom
-nom1 = demander_nom()
-nom2 = demander_nom()
-# Demander l'âge
-age1 = demander_age(nom1)
-age2 = demander_age(nom2)
-# Afficher les informations
-afficher_info_personne(nom1, age1)
-print("")
-afficher_info_personne(nom2, age2)
+
+# Fonction qui affiche un message basé sur l'âge de la personne
+def afficher_message(nom, age):
+    if age < 13:
+        print(nom + ", tu es un enfant !")
+    elif 13 <= age <= 17:
+        print(nom + ", tu es un adolescent !")
+    elif 18 <= age <= 65:
+        print(nom + ", tu es un adulte !")
+    else:
+        print(nom + ", tu es un senior !")
+
+# --- Programme principal ---
+
+# Demande le prénom et l'âge
+prenom = demander_nom()
+age = demander_age()
+
+# Affiche le message en fonction de l'âge
+afficher_message(prenom, age)
