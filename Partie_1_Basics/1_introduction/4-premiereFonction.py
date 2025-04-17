@@ -50,3 +50,13 @@ age2 = demander_age(nom2)
 afficher_info_personne(nom1, age1)
 afficher_info_personne(nom2, age2)
 
+##############################################
+# Exercice : Crée ton mini assistant personnel
+
+# Crée un programme composé de 3 fonctions :
+# - Une fonction demander_nom() qui demande le prénom d’une personne (ne rien laisser vide).
+# - Une fonction demander_age() qui demande l'âge d'une personne, en s'assurant que ce soit bien un nombre.
+# - Une fonction afficher_message() qui affiche : "Bonjour Prénom, dans 5 ans tu auras X ans !"
+# - Le programme principal devra demander les infos pour une seule personne puis afficher le message personnalisé.
+
+##############################################

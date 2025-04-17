@@ -35,7 +35,7 @@ try:
 except:
     print("ERREUR: Rentre un nombre !") # Si la conversion échoue, on affiche une erreur
 else:
-    print("Vous avez actuellemennt " + str(age_la) + " ans, l'année prochaine vous aurez " + str(age_pala) + " ans.")
+    print("Vous avez actuellemennt " + str(age_la) + " ans, l'année dernière tu vous aurez " + str(age_pala) + " ans.")
 
 
 ##############################################
@@ -44,12 +44,7 @@ else:
 # Écris un programme en Python qui :
 # - Demande à l'utilisateur son âge actuel
 # - Calcule son âge de l'année d'avant
-# - Affiche une phrase comme : Tu as 15 ans aujourd'hui, l'année dernière tu avais 14 ans !
-# - Calcule son âge de l'année d'avant
-
-'''
-Bonjour Jean Dupont !
-Tu as 30 ans et tu es Développeur.
-'''
+# - Affiche une phrase comme : "Tu as 15 ans aujourd'hui, l'année dernière tu avais 14 ans !"
+# - Si l'utilisateur ne rentre pas un nombre, affiche un message d'erreur clair.
 
 ##############################################
