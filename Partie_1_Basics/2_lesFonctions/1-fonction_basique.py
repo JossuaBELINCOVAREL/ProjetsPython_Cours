@@ -21,6 +21,7 @@ print("Fin du programme")  # Ce message s'affiche après la fonction
 # Cette fonction doit afficher deux phrases :
 # - "Bonjour le monde !"
 # - "Bienvenue sur Terre."
+
 # Ton programme principal doit :
 # - "--- Début ---"
 # - dire_bonjour
