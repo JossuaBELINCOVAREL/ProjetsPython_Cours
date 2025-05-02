@@ -38,21 +38,6 @@ Pour effacer l'écran, vous allez copier dans votre code cette fonction :
             os.system('cls')
 
 
-⚠️ Attention : Ceci ne fonctionne pas dans le terminal de Pycharm
-
-- Solution 1 :
-
-Dans Pycharm :
-
-Run > Edit Configurations
-
-Puis dans la fenêtre Run/Debug configuration qui s'ouvre, cocher la ligne Emulate terminal in ouput console. Puis OK et relancer l'exécution du programme. Il y a de fortes chances que le problème vienne de là.
-
-- Solution 2 :
-
-Lancer le programme à partir de Visual Studio Code (ou bien directement à partir d'un terminal avec "python main.py")
-
-
 -------
 
 Pour bloquer l'execution de votre programme pendant "x" secondes, vous utiliserez la fonction :
