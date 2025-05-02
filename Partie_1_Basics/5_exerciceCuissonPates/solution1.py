@@ -24,9 +24,9 @@ print("Bienvenue sur le programme de cuisson préféré des dev")
 # time.sleep(1)
 print("Voici les modes de cuissons : ")
 # time.sleep(1)
-print("1 - Oeuf à la coque : 3 minutes")
-print("2 - Oeufs mollets : 6 minutes")
-print("3 - Oeufs durs : 9 minutes")
+print("1 - Tagliatelles : 3 minutes")
+print("2 - Fusili : 6 minutes")
+print("3 - Tortelini : 9 minutes")
 # time.sleep(1)
 
 while True:
