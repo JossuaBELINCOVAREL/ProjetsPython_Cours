@@ -1,40 +1,33 @@
-# Trouver la valeur la plus petite
-# Afficher le noms associé
-# Sans changer la liste, ce qui est aussi possible.
+"""
+Exercice : Trouver le chauffeur le plus proche
 
-# Version simple
+Dans cet exercice, tu vas devoir analyser une liste de chauffeurs avec leurs distances
+et afficher le chauffeur le plus proche du client.
+
+Objectif :
+Tu dois identifier la plus petite valeur de distance dans une liste
+et afficher le nom du chauffeur correspondant.
+
+Voici les données à utiliser :
 
 noms = ["Pierre", "Paul", "Eva", "Julie", "Léo"]
 distance_chauffeurs = [1.6, 1.5, 0.3, 1.9, 3.8]
 
-index_min = 0
-distance_min = distance_chauffeurs[0]
+Tu dois :
+1. Parcourir la liste `distance_chauffeurs` pour trouver la plus petite distance
+2. Récupérer l’index associé à cette distance
+3. Grâce à cet index, afficher le nom du chauffeur correspondant dans la liste `noms`
+4. Afficher un message du type :
+   "Le chauffeur le plus proche est Eva avec une distance de 0.3 km"
 
-for index in range(len(distance_chauffeurs)):
-    if distance_chauffeurs[index] < distance_chauffeurs[index_min]:
-        index_min = index
+Contraintes :
+- Tu n’as pas le droit de modifier l’ordre des listes
+- Tu dois utiliser une boucle
+- Tu dois afficher proprement le résultat
 
-for distance in distance_chauffeurs:
-    if distance < distance_min:
-        distance_min = distance
+Optionnel (pour aller plus loin) :
+Tu peux aussi résoudre cet exercice en utilisant une seule liste contenant des tuples :
+ex: [("Pierre", 1.6), ("Paul", 1.5), ("Eva", 2.3)]
 
-print(f"L'index minimum est le : {index_min}")
-print(f"La distance minimum est de : {distance_min}")
-print(f"Le chauffeur le plus proche est : {noms[index_min]}")
-
-
-# Version avancée
-""" 
-
-noms_distance = [("Pierre", 1.6), ("Paul", 1.5), ("Eva", 2.3)]
-
-result = noms_distance[0]
-for nom_distance in noms_distance:
-    if nom_distance[1] < result[1]:
-        result = nom_distance
-
-print(f"Distance minimale : {result[1]} et son nom est {result[0]}")
-
-
+Bonne chance 🚀
 """
-

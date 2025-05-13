@@ -1,26 +1,31 @@
-# Collection avec des clef -> Valeur
-    # personne = {'clef' : 'Valeur', 'clef' : 'Valeur'}
-# On peut y ajouter aussi des collection directement
+# Un dictionnaire est une **collection de données** sous forme de paires "clé : valeur"
+# Exemple : une fiche d'identité d'une personne
 
-personne = {'nom' : 'Mélanie', 'age' : 25, 'taille' : 1.60}
-print(personne)
+# Création d'un dictionnaire avec les informations de base
+personne = {'nom' : 'Julie', 'age' : 25, 'taille' : 1.60}
+print(personne)  # Affiche tout le dictionnaire
 
-print(personne['nom'])
-print(personne['age'])
+# Accès à une valeur grâce à sa clé
+print(personne['nom'])    # Affiche "Julie"
+print(personne['age'])    # Affiche 25
 print()
 
-personne['nom'] = "Claire" # -> Remplace le nom
-print(personne)
+# Modification d'une valeur existante (la clé doit déjà exister)
+personne['nom'] = "Claire"
+print(personne)  # Le nom est maintenant "Claire"
 
-personne['poste'] = "développeur" # -> Ajoute une clef/valeur
-print(personne)
-print()
-
-achat = ("Chocolat", "beurre", "fromage") # -> Ajoute une liste et/ou tuple
-personne['achats'] = achat
+# Ajout d'une nouvelle paire clé/valeur dans le dictionnaire
+personne['poste'] = "développeur"
 print(personne)
 print()
 
+# On peut aussi ajouter des types complexes comme des tuples ou des listes
+achat = ("Chocolat", "beurre", "fromage")  # Tuple contenant des articles
+personne['achats'] = achat  # Ajout du tuple dans le dictionnaire
+print(personne)
+print()
+
+# On peut parcourir un dictionnaire avec une boucle
 for i in personne:
-    print(i) # Pour itérer sur les clef
-    print(personne[i]) # Pour itérer sur les valeurs
+    print(i)              # Affiche chaque **clé**
+    print(personne[i])    # Affiche la **valeur associée à chaque clé**
