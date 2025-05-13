@@ -1,20 +1,24 @@
-# Demander des noms de personnes
-# Boucle infini, sortir quand le nom est vide
-# Seulement à la fin afficher tous les noms
+"""
+Objectif :
+Créer un programme qui permet à l'utilisateur de saisir plusieurs prénoms, puis d'afficher la liste 
+complète dans l'ordre alphabétique.
 
-noms = []
+Instructions :
 
-while True:
-    nv_nom = input(f"Quel est votre nom : ")
-    if nv_nom == "":
-        break
-    noms.append(nv_nom)
+1. Crée une liste vide qui servira à stocker les noms des personnes.
 
-print()
-print("Noms des personnes : ")
-print(noms)
+2. Crée une boucle qui :
+   - Demande à l'utilisateur de saisir un nom.
+   - Si l'utilisateur laisse le champ vide (appuie sur Entrée sans rien écrire), la boucle se termine.
+   - Sinon, le nom est ajouté à la liste.
 
-print()
-print("Ordre alphabétiques : ")
-noms.sort()
-print(noms)
+3. Une fois la boucle terminée :
+   - Affiche tous les noms dans l’ordre où ils ont été saisis.
+   - Puis affiche à nouveau la liste mais **triée par ordre alphabétique**.
+
+Rappels utiles :
+- Pour ajouter un élément dans une liste : `ma_liste.append(valeur)`
+- Pour trier une liste : `ma_liste.sort()`
+- Une boucle infinie se fait avec `while True:` et on peut la quitter avec `break`
+
+"""

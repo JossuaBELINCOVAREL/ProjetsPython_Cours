@@ -29,3 +29,19 @@ print()
 for i in personne:
     print(i)              # Affiche chaque **clé**
     print(personne[i])    # Affiche la **valeur associée à chaque clé**
+
+##############################################
+# Exercice : Gérer un carnet de notes avec un dictionnaire
+
+# Crée un dictionnaire `eleve` contenant :
+# - prénom : "Lucas"
+# - age : 16
+# - classe : "1ère"
+# - notes : une liste contenant 4 notes de ton choix (par exemple [14, 12, 17, 15])
+
+# - Affiche toutes les informations de l'élève
+# - Modifie le prénom de l’élève par "Lucie"
+# - Ajoute une nouvelle note à la liste de notes (exemple : 18)
+# - Affiche la moyenne des notes de l’élève (addition des notes / nombre de notes)
+
+##############################################
