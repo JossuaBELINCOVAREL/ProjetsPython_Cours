@@ -61,4 +61,3 @@ afficher_personnes(personnes)
 # Indice : N’oubliez pas que les listes sont mutables : elles se modifient dans les fonctions directement
 
 ##############################################
-    
