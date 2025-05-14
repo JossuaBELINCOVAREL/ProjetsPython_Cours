@@ -36,9 +36,9 @@ print("Somme des âges :", sum(ages))  # ici : 113
 
 # Tu disposes de la liste suivante : notes = [12, 15, 8, 19, 7, 14]
 
-# - Affiche la note minimale.
-# - Affiche la note maximale.
-# - Affiche la moyenne des notes.
+# Affiche la note minimale.
+# Affiche la note maximale.
+# Affiche la moyenne des notes.
 
 # Demande à l’utilisateur de rentrer une note : 
 #   - Vérifie si cette note est présente dans la liste.

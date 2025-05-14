@@ -42,10 +42,10 @@ print(noms)
 # Exercice : Trier des prénoms
 
 # Tu disposes d'une liste de prénoms.
-# - Affiche la liste dans l'ordre alphabétique normal.
-# - Affiche une nouvelle liste triée sans modifier la liste originale.
-# - Trie la liste originale selon la **longueur des prénoms** (du plus court au plus long).
-# - Affiche cette liste.
+# Affiche la liste dans l'ordre alphabétique normal.
+# Affiche une nouvelle liste triée sans modifier la liste originale.
+# Trie la liste originale selon la **longueur des prénoms** (du plus court au plus long).
+# Affiche cette liste.
 
 # Indices :
 # - Utilise sorted() pour créer une nouvelle liste triée sans altérer l'originale.

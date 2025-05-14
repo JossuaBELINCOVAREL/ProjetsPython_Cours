@@ -36,14 +36,14 @@ print(noms)
 
 # Tu es chargé(e) de gérer la liste des étudiants d’une classe.
 
-# - Crée une liste avec 3 prénoms d’étudiants
-# - Crée une seconde liste avec 2 nouveaux étudiants
+# Crée une liste avec 3 prénoms d’étudiants
+# Crée une seconde liste avec 2 nouveaux étudiants
 
 # Ajoute la seconde liste à la première :
 #  - d’abord avec append
 #  - ensuite avec extend (ou +=)
 
-# - Insère un élève "Inès" entre le 1er et le 2ème étudiant de la liste
-# - Affiche la liste finale à chaque étape pour observer les différences
+# Insère un élève "Inès" entre le 1er et le 2ème étudiant de la liste
+# Affiche la liste finale à chaque étape pour observer les différences
 
 ##############################################
