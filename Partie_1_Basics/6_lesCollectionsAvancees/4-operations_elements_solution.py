@@ -1,20 +1,19 @@
-# min, max, in, sum
+notes = [12, 15, 8, 19, 7, 14]
 
-noms = ["Jean", "Eva", "Sophie", "Martin"]
-ages = [21, 32, 4, 56]
+# 1. Note minimale
+print("Note minimale :", min(notes))
 
-print(min(ages))
+# 2. Note maximale
+print("Note maximale :", max(notes))
 
-print(min(noms)) # -> En fonction de l'ordre alphabétique de chaque lettre des prénoms
+# 3. Moyenne
+moyenne = sum(notes) / len(notes)
+print("Moyenne des notes :", moyenne)
 
-if "Eva" in noms:
-    print("Présent")
+# 4. Vérifier si une note est présente
+note_recherchee = int(input("Entre une note à rechercher : "))
+
+if note_recherchee in notes:
+    print("✅ La note est présente dans la liste.")
 else:
-    print("Abscent")
-
-if "eva" in noms:
-    print("Présent")
-else:
-    print("Abscent")
-
-print(sum(ages)) # Somme seulement possibles avec des int
+    print("❌ La note n'est pas présente.")
